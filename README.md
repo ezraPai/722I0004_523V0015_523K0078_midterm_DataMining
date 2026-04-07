@@ -1,7 +1,8 @@
+```
 movie-recommender/
 │
 ├── data/
-│   ├── raw/                       
+│   ├── raw/                        # Original unzipped files (never modify)
 │   │   ├── ratings.csv
 │   │   ├── movies.csv
 │   │   ├── tags.csv
@@ -25,11 +26,12 @@ movie-recommender/
 │
 ├── src/                            # Reusable Python modules
 │   ├── __init__.py
+│   ├── data_loader.py             # Load & sample raw data
 │   ├── preprocessing.py           # Cleaning, encoding, splitting
 │   ├── collaborative_filtering.py # User-based & Item-based CF
 │   ├── matrix_factorization.py    # SVD, ALS
 │   ├── content_based.py           # Genre + tag similarity
-│   ├── hybrid.py                  # blended model
+│   ├── hybrid.py                  # (Optional) blended model
 │   └── evaluation.py              # RMSE, MAE, Precision@K, NDCG@K
 │
 ├── models/                         # Saved trained models
@@ -50,3 +52,5 @@ movie-recommender/
 │
 ├── requirements.txt                # All dependencies
 ├── README.md                       # Project overview & how to run
+└── main.py                         # (Optional) run full pipeline end-to-end
+```
