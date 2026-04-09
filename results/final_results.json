@@ -1,0 +1,24 @@
+{
+    "base_rmse": 0.90471,
+    "base_mae": 0.682559,
+    "cf_rmse": 0.918437,
+    "cf_mae": 0.67529,
+    "cf_fallback": {
+        "cf": 344456,
+        "baseline_unseen_item": 321,
+        "baseline_unseen_user": 0,
+        "baseline_no_neighbors": 52845
+    },
+    "svd_rmse": 0.819326,
+    "svd_mae": 0.614636,
+    "svd_fallback": {
+        "svd": 397301,
+        "baseline": 321
+    },
+    "base_p10": 0.0366,
+    "base_n10": 0.04804907074220937,
+    "cf_p10": 0.0838,
+    "cf_n10": 0.10077096891906055,
+    "als_p10": 0.07880000000000001,
+    "als_n10": 0.10373203029363179
+}

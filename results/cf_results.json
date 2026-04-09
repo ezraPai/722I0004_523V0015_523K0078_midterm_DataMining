@@ -1,0 +1,28 @@
+{
+  "train_rows": 1565182,
+  "test_rows": 397622,
+  "matrix_shape": [
+    12773,
+    14246
+  ],
+  "n_users": 12773,
+  "n_items": 14246,
+  "fallback_counts": {
+    "cf": 344456,
+    "baseline_unseen_item": 321,
+    "baseline_unseen_user": 0,
+    "baseline_no_neighbors": 52845
+  },
+  "pct_cf": 86.63,
+  "pct_fallback": 13.37,
+  "rmse": 0.918437,
+  "mae": 0.67529,
+  "nan_preds": 0,
+  "all_sanity_passed": true,
+  "precision_at_k": 0.0838,
+  "ndcg_at_k": 0.100771,
+  "ranking_users": 500,
+  "precision_baseline": 0.0366,
+  "delta_precision": 0.0472,
+  "delta_rmse": 0.013737
+}

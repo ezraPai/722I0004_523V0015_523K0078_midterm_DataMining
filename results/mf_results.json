@@ -1,0 +1,106 @@
+{
+  "svd_best_params": {
+    "n_factors": 100,
+    "n_epochs": 30,
+    "lr": 0.005,
+    "reg": 0.02
+  },
+  "svd_best_val_rmse": 0.8044708090990115,
+  "svd_gs_results": [
+    {
+      "params": {
+        "n_factors": 50,
+        "n_epochs": 20,
+        "lr": 0.005,
+        "reg": 0.02
+      },
+      "val_rmse": 0.82952
+    },
+    {
+      "params": {
+        "n_factors": 50,
+        "n_epochs": 20,
+        "lr": 0.005,
+        "reg": 0.05
+      },
+      "val_rmse": 0.8488
+    },
+    {
+      "params": {
+        "n_factors": 50,
+        "n_epochs": 30,
+        "lr": 0.005,
+        "reg": 0.02
+      },
+      "val_rmse": 0.80736
+    },
+    {
+      "params": {
+        "n_factors": 50,
+        "n_epochs": 30,
+        "lr": 0.005,
+        "reg": 0.05
+      },
+      "val_rmse": 0.83071
+    },
+    {
+      "params": {
+        "n_factors": 100,
+        "n_epochs": 20,
+        "lr": 0.005,
+        "reg": 0.02
+      },
+      "val_rmse": 0.82591
+    },
+    {
+      "params": {
+        "n_factors": 100,
+        "n_epochs": 20,
+        "lr": 0.005,
+        "reg": 0.05
+      },
+      "val_rmse": 0.84714
+    },
+    {
+      "params": {
+        "n_factors": 100,
+        "n_epochs": 30,
+        "lr": 0.005,
+        "reg": 0.02
+      },
+      "val_rmse": 0.80447
+    },
+    {
+      "params": {
+        "n_factors": 100,
+        "n_epochs": 30,
+        "lr": 0.005,
+        "reg": 0.05
+      },
+      "val_rmse": 0.8277
+    }
+  ],
+  "svd_fit_time": 244.9,
+  "svd_rmse": 0.819326,
+  "svd_mae": 0.614636,
+  "svd_nan": 0,
+  "svd_fallback_n": 321,
+  "svd_coverage": 99.92,
+  "svd_all_passed": true,
+  "als_fit_time": 1136.5,
+  "als_params": {
+    "n_factors": 100,
+    "reg": 0.1,
+    "alpha": 15,
+    "n_iters": 15
+  },
+  "als_precision_at_k": 0.0788,
+  "als_ndcg_at_k": 0.103732,
+  "als_ranking_users": 500,
+  "als_rank_time": 0.8,
+  "als_all_passed": false,
+  "baseline_rmse": 0.9047,
+  "cf_rmse": 0.9184,
+  "cf_precision": 0.0838,
+  "cf_ndcg": 0.100771
+}
